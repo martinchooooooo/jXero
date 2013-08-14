@@ -1,18 +1,16 @@
-package com.softlysoftware.jxero;
+package com.softlysoftware.jxero.core;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 import java.io.IOException;
 import org.junit.Test;
-import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import com.softlysoftware.jxero.core.Invoice;
 import com.softlysoftware.jxero.core.LineItem;
 import com.softlysoftware.jxero.InvoicesEndpoint;
+import com.softlysoftware.jxero.Xml;
+
 import org.apache.commons.io.IOUtils;
-import org.xmlmatchers.XmlMatchers;
-import org.xmlmatchers.transform.XmlConverters;
 
 @RunWith(JUnit4.class)
 public class InvoiceTest {
